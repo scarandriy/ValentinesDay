@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img.png');
+    background-repeat: repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.question {
+    font-size: 50px;
+    color: #ffa0bb; /* Adjust the color of the text */
+    /* -webkit-text-stroke: 1px #c76e87; */
+    text-shadow: 
+        5px 5px 0 #858585
+ 
+      
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.confirmation {
+    font-size: 50px;
+    color: #ffa0bb; /* Adjust the color of the text */
+    /* -webkit-text-stroke: 1px #c76e87; */
+    text-shadow: 
+        5px 5px 0 #858585
+    
+}
+
+
+button {
+    font-size: 30px;
+    padding: 15px 25px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#noButton {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+#image {
+    width: 70%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
